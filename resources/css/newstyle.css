@@ -10,6 +10,10 @@ body {
     background: url(../images/bg.png);
 }
 
+a {
+    text-decoration: none;
+}
+
 h1 {
     font-size: 72px;
     font-weight: bold;
@@ -19,9 +23,25 @@ h1 {
 
 h2 {
     font-size: 48px;
+    line-height: 48px;
     font-weight: bold;
     color: #ffdc29;
-    display: inline;
+    margin-bottom: 26px;
+    
+}
+
+p {
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+p span {
+    color: #ffdc29;
+    background: #0a0b0e;
+    border-radius: 3px;
+    padding: 0 6px;
 }
 
 .top-logo {
@@ -123,5 +143,50 @@ nav {
     text-decoration: none;
     font-size: 18px;
     color: #0b519f;
+    font-weight: bold;
+}
+
+.pack-container {
+    max-width: 1200px;
+    margin: 135px auto;
+    
+}
+
+.pack-wrapper {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.pack {
+    max-width: 477px;
+    max-height: 289px;
+    
+    margin: 25px;
+}
+
+.pack-text {
+    max-width: 515px;
+    
+    margin: 25px;
+}
+
+#pack-button {
+    height: 48px;
+    width: 240px;
+    border: 2px solid #09b2c4;
+    background: #09b2c4;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 44px 0;
+}
+
+#pack-button span {
+ 
+    font-size: 18px;
+    color: white;
     font-weight: bold;
 }
