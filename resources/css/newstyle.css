@@ -66,3 +66,8 @@ nav {
     color: #fff;
     padding: auto;
 }
+
+.banner-container {
+    background: center url(../images/banner.png);
+    height: 569px;
+}
