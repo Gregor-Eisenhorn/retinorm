@@ -88,7 +88,7 @@ nav {
     align-items: center;
 }
 
-#main-nav-button a {
+#main-nav-button span {
     color: #fff;
     padding: auto;
 }
@@ -139,7 +139,7 @@ nav {
     margin: 44px 0;
 }
 
-#banner-button a {
+#banner-button span {
     text-decoration: none;
     font-size: 18px;
     color: #0b519f;
