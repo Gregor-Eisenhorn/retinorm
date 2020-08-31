@@ -8,6 +8,7 @@ body {
     font-family: 'Avenir Next Cyr';
     color: #ffffff;
     background: url(../images/bg.png);
+    min-width: 885px;
 }
 
 a {
@@ -157,6 +158,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     
 }
 .pack {
