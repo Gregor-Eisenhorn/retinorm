@@ -149,7 +149,7 @@ nav {
 
 .pack-container {
     max-width: 1200px;
-    margin: 135px auto;
+    margin: 135px auto 100px auto;
     
 }
 
@@ -194,13 +194,31 @@ nav {
 }
 
 .for-what-container {
-    background: red;
+   
     max-width: 1200px;
     margin: 0 auto;
+}
+
+.for-what-images-container {
+    margin: 40px 0;
 }
 
 .for-what-text {
     max-width: 95%;
     margin: 0 auto;
     text-align: center;
+}
+
+.for-what-image {
+    max-width: 285px;
+}
+
+.for-what-image img {
+    border-radius: 4px;
+    max-width: 100%;
+}
+
+.for-what-images {
+    display: flex;
+    justify-content: space-between;
 }
