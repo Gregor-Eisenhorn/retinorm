@@ -192,3 +192,15 @@ nav {
     color: white;
     font-weight: bold;
 }
+
+.for-what-container {
+    background: red;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.for-what-text {
+    max-width: 95%;
+    margin: 0 auto;
+    text-align: center;
+}
