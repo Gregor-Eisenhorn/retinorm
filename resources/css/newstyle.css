@@ -32,10 +32,15 @@ h2 {
 }
 
 p {
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 18px;
+    line-height: 28px;
     color: white;
     font-weight: bold;
+}
+
+#pack-p {
+    font-size: 20px;
+    line-height: 30px;
 }
 
 p span {
@@ -219,6 +224,39 @@ nav {
 }
 
 .for-what-images {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+.tired-container {
+   
+    max-width: 1200px;
+    margin: 50px auto;
+}
+
+.tired-images-container {
+    margin: 40px 0;
+}
+
+.tired-text {
+    max-width: 95%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.tired-image {
+    max-width: 380px;
+}
+
+.tired-image img {
+    border-radius: 4px;
+    max-width: 100%;
+}
+
+.tired-images {
     display: flex;
     justify-content: space-between;
 }
