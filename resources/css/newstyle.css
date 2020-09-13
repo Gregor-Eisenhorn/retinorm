@@ -314,6 +314,7 @@ nav {
 
 .carrot-glow img, .orange-glow img, .avocado-glow img {
     position: absolute;
+    
     left: 0;
     bottom: 0;
     z-index: 10;
@@ -328,14 +329,14 @@ nav {
     left: 30%;
     width: 20%;
     height: 10%;
-    background: #d98837;
+    background: #ffef9c;
     border-radius: 50%;
-    box-shadow: 0 0 100px 100px #d98837;
+    box-shadow: 0 0 30px 50px #ffef9c, 0 0 100px 100px #db6f00;
     transition: box-shadow 600ms;
 }
 
 .carrot-glow:hover::before {
-    box-shadow: 0 0 140px 130px #d98837;
+    box-shadow: 0 0 30px 50px #ffef9c, 0 0 100px 120px #db6f00;
 }
 
 .orange-glow::before {
@@ -349,12 +350,12 @@ nav {
     height: 10%;
     background: #d98837;
     border-radius: 50%;
-    box-shadow: 0 0 100px 100px #d98837;
+    box-shadow: 0 0 30px 70px #ffef9c, 0 0 100px 100px #db6f00;
     transition: box-shadow 600ms;
 }
 
 .orange-glow:hover::before {
-    box-shadow: 0 0 140px 130px #d98837;
+    box-shadow: 0 0 30px 70px #ffef9c, 0 0 100px 120px #db6f00;
 }
 
 .avocado-glow::before {
@@ -368,10 +369,10 @@ nav {
     height: 10%;
     background: #a9ff00;
     border-radius: 50%;
-    box-shadow: 0 0 100px 100px #a9ff00;
+    box-shadow: 0 0 30px 70px #ffef97, 0 0 100px 120px #428e2e;
     transition: box-shadow 600ms;
 }
 
 .avocado-glow:hover::before {
-    box-shadow: 0 0 140px 130px #a9ff00;
+    box-shadow: 0 0 30px 70px #ffef97, 0 0 100px 140px #428e2e  ;
 }
