@@ -314,7 +314,6 @@ nav {
 
 .carrot-glow img, .orange-glow img, .avocado-glow img {
     position: absolute;
-    
     left: 0;
     bottom: 0;
     z-index: 10;
@@ -374,5 +373,208 @@ nav {
 }
 
 .avocado-glow:hover::before {
-    box-shadow: 0 0 30px 70px #ffef97, 0 0 100px 140px #428e2e  ;
+    box-shadow: 0 0 30px 70px #ffef97, 0 0 100px 140px #428e2e;
+}
+
+.deficit-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.deficit-text {
+    max-width: 30%;
+    margin: 0 78px 0 68px;
+    padding-top: 46px;
+}
+
+#ball-blue {
+    position: absolute;
+    top: -30px;
+    left: -50px;
+}
+
+.deficit-elements {
+    font-size: 100px;
+    max-width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.deficit-elements-c {
+    margin-right: 26px;
+    position: relative;
+}
+
+.deficit-elements-se img {
+    margin-bottom: 14px;
+}
+
+.deficit-text-main p {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.deficit-heading {
+    width: 80%;
+}
+
+#percentage {
+    font-size: 48px;
+    line-height: 22px;
+    background: #0b519f;
+    padding: 20px 15px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+#deficit {
+    font-size: 20px;
+    line-height: 22px;
+}
+
+.ball-c, .ball-se {
+    position: relative;
+}
+
+.ball-c img, .ball-se img {
+    z-index: 10;
+    position: relative;
+}
+
+.ball-c::before, .ball-se::before {
+    content: '';
+    position: absolute;
+    display: block;
+    z-index: 9;
+    top: 35%;
+    left: 30%;
+    width: 20%;
+    height: 10%;
+    background: #6c78fe;
+    border-radius: 50%;
+    box-shadow: 0 0 30px 80px #6c78fe;
+    transition: box-shadow 600ms;
+}
+
+.ball-c:hover::before, .ball-se:hover::before {
+    box-shadow: 0 0 30px 100px #6c78fe;
+}
+
+.advantage-container {
+    max-width: 1200px;
+    margin: 150px auto;
+}
+
+.advantage-images-container {
+    margin: 40px 0;
+    padding: 30px 40px;
+}
+
+.advantage-text {
+    max-width: 95%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.advantage-image {
+    height: 230px;
+    margin-bottom: 46px;
+    position: relative;
+}
+
+.advantage-image img {
+   position: relative;
+   z-index: 10;
+    
+}
+
+.advantage-images {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+}
+
+#advantage-descr {
+    text-align: center;
+    font-size: 20px;
+    max-width: 320px;
+}
+
+#eyelid::before {
+    content: '';
+    position: absolute;
+    display: block;
+    z-index: 9;
+    top: 35%;
+    left: 37%;
+    width: 20%;
+    height: 10%;
+    background: #c7eee6;
+    border-radius: 50%;
+    box-shadow: 0 0 30px 50px #c7eee6, 0 0 30px 80px #67e7d0;
+    transition: box-shadow 600ms;
+}
+
+#eyelid:hover::before {
+    box-shadow: 0 0 30px 60px #c7eee6, 0 0 30px 110px #67e7d0;
+}
+
+#shield::before {
+    content: '';
+    position: absolute;
+    display: block;
+    z-index: 9;
+    top: 48%;
+    left: 40%;
+    width: 20%;
+    height: 10%;
+    background: #fefab0;
+    border-radius: 50%;
+    box-shadow: 0 0 30px 90px #fefab0, 0 0 30px 120px #a2912d;
+    transition: box-shadow 600ms;
+}
+
+#shield:hover::before {
+    box-shadow: 0 0 30px 90px #fefab0, 0 0 30px 140px #a2912d;
+}
+
+#puzzle::before {
+    content: '';
+    position: absolute;
+    display: block;
+    z-index: 9;
+    top: 35%;
+    left: 37%;
+    width: 20%;
+    height: 10%;
+    background: #c7eee6;
+    border-radius: 50%;
+    box-shadow: 0 0 30px 50px #c7eee6, 0 0 30px 80px #67e7d0;
+    transition: box-shadow 600ms;
+}
+
+#puzzle:hover::before {
+    box-shadow: 0 0 30px 60px #c7eee6, 0 0 30px 110px #67e7d0;
+}
+
+#puzzle::after {
+    content: '';
+    position: absolute;
+    display: block;
+    z-index: 8;
+    top: 37%;
+    left: 59%;
+    width: 20%;
+    height: 10%;
+    background: #c7eee6;
+    border-radius: 50%;
+    box-shadow: 0 0 30px 50px #c7eee6, 0 0 30px 80px #ee4015;
+    transition: box-shadow 600ms;
+}
+
+#puzzle:hover::after {
+    box-shadow: 0 0 30px 60px #c7eee6, 0 0 30px 110px #ee4015;
 }
