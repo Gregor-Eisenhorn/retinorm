@@ -9,6 +9,7 @@ body {
     color: #ffffff;
     background: url(../images/bg.png);
     min-width: 885px;
+    overflow-x: hidden;
 }
 
 a {
@@ -484,9 +485,8 @@ nav {
 }
 
 .advantage-image img {
-   position: relative;
-   z-index: 10;
-    
+    position: relative;
+    z-index: 10;
 }
 
 .advantage-images {
@@ -577,4 +577,302 @@ nav {
 
 #puzzle:hover::after {
     box-shadow: 0 0 30px 60px #c7eee6, 0 0 30px 110px #ee4015;
+}
+
+.nomination {
+    background: #fdc500;
+    height: 320px;
+    margin-bottom: 125px;
+}
+
+.nomination-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    height: 320px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 60px;
+}
+
+.nomination-text {
+    max-width: 705px;
+    text-align: center;
+}
+
+.nomination-text h2 {
+    line-height: 69.37px;
+    color: #0a0b0e;
+}
+
+.nomination-text p {
+    font-size: 30px;
+    line-height: 36px;
+    color: #0b519f;
+}
+
+.nomination-text p span {
+    color: #ffffff;
+    background: #0b519f;
+}
+
+.nomination-image {
+    position: absolute;
+    bottom: 24px;
+    right: 110px;
+}
+
+#ball-yellow {
+    position: absolute;
+    bottom: -80px;
+    left: 200px;
+}
+
+.sostav {
+    height: 805px;
+}
+
+.sostav-container {
+    max-width: 920px;
+    margin: 0 auto;
+}
+
+.sostav-heading {
+    text-align: center;
+}
+
+.sostav-heading h2 {
+    z-index: 10;
+    position: relative;
+}
+
+.sostav-text {
+    text-align: center;
+}
+
+.sostav-text p {
+    z-index: 10;
+    position: relative;
+}
+
+table {
+    width: 500px;
+    height: 350px;
+    margin: 90px auto;
+    border-collapse: separate;
+    border-spacing: 10px 10px;
+    z-index: 10;
+    position: relative;
+}
+
+.table-left {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+.table-right {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: #0b519f;
+    background: #fcd300;
+    padding: 0 30px;
+    border-radius: 4px;
+}
+
+.table-right span {
+    background-clip: content-box;
+    background: #fcd300;
+}
+
+.container-1200 {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.pill-left {
+    position: absolute;
+    left: -500px;
+    top: 70px;
+    z-index: 9;
+}
+
+.pill-center-left {
+    position: absolute;
+    left: -160px;
+    top: 250px;
+    z-index: 9;
+}
+
+.pill-center-right {
+    position: absolute;
+    right: -220px;
+    top: 300px;
+    z-index: 9;
+}
+
+.pill-right {
+    position: absolute;
+    right: -500px;
+    top: 130px;
+    z-index: 9;
+}
+
+.ball-white-left {
+    position: absolute;
+    top: 380px;
+    left: -16px;
+    z-index: 9;
+}
+
+.ball-white-right {
+    position: absolute;
+    right: 18px;
+    top: 300px;
+    z-index: 9;
+}
+
+.how-to-take {
+    height: 720px;
+    background: #fdc500;
+}
+
+.how-to-take-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 0;
+    position: relative;
+}
+
+.how-to-take-heading {
+    text-align: center;
+}
+
+.how-to-take-heading h2 {
+    color: #0b519f;
+}
+
+.how-to-take-elements {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.how-to-take-element {
+    max-width: 250px;
+    text-align: center;
+    position: relative;
+}
+
+.how-to-take-element p {
+    color: #0b519f;
+}
+
+.how-to-take-element p span {
+    color: white;
+    background: #0b519f;
+}
+
+#glass {
+    position: relative;
+    right: 20px;
+    margin-bottom: 20px;
+}
+
+#pack-small {
+    position: relative;
+    right: 100px;
+    margin-bottom: 70px;
+}
+
+#three-pills {
+    margin-bottom: 55px;
+}
+
+.how-to-take-button {
+    margin: 0 auto;
+    max-width: 270px;
+}
+
+#how-to-take-button {
+    height: 48px;
+    width: 240px;
+    border: 2px solid #09b2c4;
+    background: #09b2c4;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 44px 0;
+}
+
+#how-to-take-button span {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+}
+
+.how-to-take-footer {
+    text-align: center;
+}
+
+.how-to-take-footer p {
+    font-size: 14px;
+    line-height: 30px;
+    color: #0b519f;
+}
+
+.ball-yellow-how-to-take {
+    position: absolute;
+    right: 300px;
+    top: -44px;
+}
+
+#footer {
+    height: 740px;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-heading {
+    text-align: center;
+    padding-top: 120px;
+}
+
+.footer-badges {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0 120px 0;
+}
+
+.footer-bottom-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-bottom-link-retinorm, .footer-bottom-link-download, .footer-bottom-link-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.footer-bottom-link-retinorm a, .footer-bottom-link-download a, .footer-bottom-link-contact a {
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 48px;
+    color: white;
+}
+
+#footer-bottom-link-yellow {
+    color: #ffdc29;
+    font-weight: bold;
 }
